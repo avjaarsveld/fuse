@@ -1,6 +1,5 @@
 require './spec/spec_helper'
 require "./lib/table_printer"
-require 'terminal-table'
 
 module Terminal
   describe TablePrinter do

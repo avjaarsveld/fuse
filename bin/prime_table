@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 
-# pending
+require_relative '../lib/generator'
+
+Generator.new.generate

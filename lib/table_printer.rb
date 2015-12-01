@@ -36,7 +36,6 @@ class TablePrinter
 
   def inject_spacer_column(data)
     new_data = {}
-    new_rows = []
     new_data[:headings] = inject_spacer_in_row(data[:headings], spacer_char = '|') if data[:headings]
     new_data[:rows] = data[:rows].collect{|row| inject_spacer_in_row(row, spacer_char = '|') }
     new_data
